@@ -1,7 +1,6 @@
 import requests
 from threading import Thread
 from queue import Queue
-domain=input("ENTER DOMAIN NAME:")
 q = Queue()
 
 def scan_subdomains(domain):
