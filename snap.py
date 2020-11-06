@@ -19,7 +19,7 @@ def scan_subdomains(domain):
 
         # we're done with scanning that subdomain
         q.task_done()
-
+#opensource program cpy right at BYTEHACKING-CREATIVE
 
 def main(domain, n_threads, subdomains):
     global q
